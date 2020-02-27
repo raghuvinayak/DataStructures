@@ -114,12 +114,3 @@ class RedBlack(object):
         tempLeftchild.rightchild = node
         return tempLeftchild
     
-redv = RedBlack()
-
-redv.insert(10)
-redv.insert(8)
-redv.insert(9)
-redv.insert(6)
-redv.insert(11)
-redv.insert(12)
-redv.traversing()
